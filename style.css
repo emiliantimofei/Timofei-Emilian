@@ -1,0 +1,67 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.container{
+    text-align: center;
+    width: 1300px;
+    height: 660px;
+    margin-top: 150px;
+    margin-left: 300px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+header, h1{
+    color: lime;
+}
+
+header > .title-logo{
+    width: 260px;
+    height: 120px;
+}
+
+nav{
+    background-color: lime;
+    padding: 9px;
+}
+
+main{
+    color: white;
+    text-align: left;
+    margin: 5px;
+}
+
+h2{
+    display: inline-block;
+}
+
+.progress-bar{
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Gino .progress-bar{
+    background-color: orange;
+    width: 30%;
+}
+
+.Mike .progress-bar{
+    background-color: green;
+    width: 55%;
+}
+
+.Fedel .progress-bar{
+    background-color: red;
+    width: 15%;
+}
